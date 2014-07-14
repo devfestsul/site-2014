@@ -45,7 +45,7 @@ module.exports = {
       'location',
       // 'speakers',
       // 'schedule',
-      // 'sponsors',
+      'sponsors',
       // 'partners'
       // 'contact'
     ],
@@ -170,9 +170,9 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+        name: "Google",
+        logo: "themes/yellow-swan/img/google.png",
+        url: "http://google.com"
       }
     ],
 
