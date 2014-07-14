@@ -7,28 +7,28 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "DevFest Sul",
+      description: "",
+      date: "23 de agosto",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "R$ 50,00",
+      venue: "Centro de Eventos Plaza São Rafael",
+      address: "Avenida Alberto Bins, Centro Histórico",
+      city: "Porto Alegre",
+      state: "Rio Grande do Sul"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Garanta seu ingresso!",
+        link: "http://www.eventick.com.br/devfestsul"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    // forkButton: {
+    //     repository: "https://github.com/devfestsul/site-2014"
+    // },
 
     // Site info
     site: {
@@ -43,22 +43,22 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
-      'schedule',
-      'sponsors',
-      'partners'
+      // 'speakers',
+      // 'schedule',
+      // 'sponsors',
+      // 'partners'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Localização",
+      speakers: "Palestrantes",
+      schedule: "Agenda",
+      sponsors: "Patrocínio",
+      partners: "Parceiros",
+      contact: "Contato"
     },
 
     // The entire schedule
