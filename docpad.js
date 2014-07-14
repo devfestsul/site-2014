@@ -34,7 +34,7 @@ module.exports = {
     site: {
       theme: "yellow-swan",
       url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: ""
     },
 
     // Active sections on the website
