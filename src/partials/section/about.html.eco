@@ -1,6 +1,6 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<p itemprop="description">DevFest é um <a href="https://developers.google.com/events/devfest/" target="_blank">evento mundial</a>, realizado pela comunidade de desenvolvedores Google. Focado nas necessidades de cada comunidade local, ele tem por objetivo proporcionar a troca de conhecimento, networking e o fortalecimento dessas comunidades.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p>Em Porto Alegre teremos duas salas, cada uma delas com palestras, apresentadas por membros da comunidade e dos GDGs do sul do país.</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p>Se você se interessa por isso e gostaria de um ambiente para troca de ideias e networking, inscreva-se no DevFest Sul!</p>
