@@ -8,7 +8,7 @@ module.exports = {
     // Conference info
     conf: {
       name: "DevFest Sul",
-      description: "",
+      description: "DevFest é um evento mundial, realizado pela comunidade de desenvolvedores Google. Focado nas necessidades de cada comunidade local, ele tem por objetivo proporcionar a troca de conhecimento, networking e o fortalecimento dessas comunidades.",
       date: "23 de agosto",
       // If your event is free, just comment this line
       price: "R$ 50,00",
@@ -33,7 +33,7 @@ module.exports = {
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
+      url: "http://devfestsul.com.br",
       googleanalytics: ""
     },
 
