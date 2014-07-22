@@ -329,6 +329,9 @@ nav {
 .nav-link {
   font-size: 1.4em;
 }
+.section-title {
+  text-transform: uppercase;
+}
 /* =============================================================================
    HEADER
    ========================================================================== */
@@ -776,11 +779,17 @@ nav {
 /* =============================================================================
    LOCATION
    ========================================================================== */
+.location {
+  background: #FF002B;
+  color: #fff;
+  padding-bottom: 150px;
+}
+.location .section-title {
+  color: #fff;
+}
 .location-area {
   background: #e7e7e7;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  height: 300px;
+  height: 600px;
 }
 /* =============================================================================
    SPEAKER
