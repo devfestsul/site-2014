@@ -327,7 +327,7 @@ nav {
   margin-right: 15px;
 }
 .nav-link {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 .section-title {
   text-transform: uppercase;
@@ -703,10 +703,10 @@ h6 {
    NAVIGATION
    ========================================================================== */
 nav {
-  background: #2b2b2b;
+  background: #008AFA;
 }
 .nav-link {
-  color: #e7e7e7;
+  color: #f3f3f3;
 }
 .nav-link:active,
 .nav-link:hover,
@@ -794,6 +794,14 @@ nav {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+.speakers {
+  background: #FFAA00;
+  color: #fff;
+  padding: 80px 0;
+}
+.speakers .section-title {
+  color: #fff;
+}
 .speaker-photo .photo {
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.07);
