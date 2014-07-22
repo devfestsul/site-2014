@@ -183,6 +183,27 @@ module.exports = {
           url: "mailto:contato@devfestsul.com.br"
         }
       ],
+      gold: [
+        {
+          name: "GDG",
+          logo: "themes/yellow-swan/img/your-logo.jpg",
+          url: "mailto:contato@devfestsul.com.br"
+        }
+      ],
+      silver: [
+        {
+          name: "GDG",
+          logo: "themes/yellow-swan/img/your-logo.jpg",
+          url: "mailto:contato@devfestsul.com.br"
+        }
+      ],
+      support: [
+        {
+          name: "GDG",
+          logo: "themes/yellow-swan/img/your-logo.jpg",
+          url: "mailto:contato@devfestsul.com.br"
+        }
+      ],
     },
 
     // List of Partners
