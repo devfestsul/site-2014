@@ -280,6 +280,11 @@ hr {
   width: 960px;
   position: relative;
 }
+.content {
+  position: relative;
+  top: 420px;
+  z-index: 2;
+}
 .content section {
   padding-top: 50px;
 }
@@ -637,6 +642,7 @@ nav {
   /* content */
   .content {
     padding: 0;
+    top: 200px;
   }
   .content section {
     padding-top: 50px;
@@ -733,6 +739,9 @@ nav {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 .logo-link,
 .tagline,
@@ -898,6 +907,9 @@ nav {
 /* =============================================================================
    SPONSORS
    ========================================================================== */
+.sponsors {
+  background: #fff;
+}
 .sponsor-link,
 .partner-link {
   background: #fff;
