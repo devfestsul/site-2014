@@ -531,6 +531,10 @@ nav {
   .about {
     margin: 0;
   }
+  /* footer */
+  .footer {
+    height: 150px !important;
+  }
 }
 @media only screen and (min-width: 320px) and (max-width: 800px) {
   /* schedule */
@@ -586,6 +590,10 @@ nav {
   }
   .form .btn {
     margin-bottom: 50px;
+  }
+  /* footer */
+  .footer {
+    height: 150px !important;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -653,6 +661,10 @@ nav {
   }
   .speakers-bio {
     display: none;
+  }
+  /* footer */
+  .footer {
+    height: 150px !important;
   }
 }
 @media only screen and (max-width: 321px) {
@@ -756,7 +768,7 @@ nav {
   background-image: url('../img/cover.jpg');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: left center;
   background-size: 100% auto;
   color: #fff;
   height: 100px;
