@@ -169,7 +169,7 @@ module.exports = {
 
     // List of Sponsors
     sponsors: {
-      gold: [
+      adamantium: [
         {
           name: "Google",
           logo: "themes/yellow-swan/img/google.png",
