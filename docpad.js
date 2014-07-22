@@ -176,6 +176,13 @@ module.exports = {
           url: "http://google.com"
         }
       ],
+      diamond: [
+        {
+          name: "GDG",
+          logo: "themes/yellow-swan/img/gdg-logo.png",
+          url: "http://foo.com"
+        }
+      ],
     },
 
     // List of Partners
