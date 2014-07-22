@@ -68,31 +68,31 @@ module.exports = {
         time: "9h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        company: "",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
+          title: "A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "10h00"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        company: "",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Introducing Windows 12",
+          title: "A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "11h00"
         }
@@ -102,31 +102,31 @@ module.exports = {
         time: "12h00"
       },
       {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        company: "",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
+          title: "A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "13h00"
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        company: "",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Presenting iPad",
+          title: "A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "14h00"
         }
@@ -136,31 +136,31 @@ module.exports = {
         time: "15h00"
       },
       {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Facebook",
         link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Revealing Facebook Secrets",
+          title: "A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "16h00"
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Apple, Inc.",
         link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
+          href: "A definir",
+          text: ""
         },
         presentation: {
-          title: "Why do I prefer Android over iPhone",
+          title: "A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "17h00"
         }
