@@ -179,8 +179,8 @@ module.exports = {
       diamond: [
         {
           name: "GDG",
-          logo: "themes/yellow-swan/img/gdg-logo.png",
-          url: "http://foo.com"
+          logo: "themes/yellow-swan/img/your-logo.jpg",
+          url: "mailto:contato@devfestsul.com.br"
         }
       ],
     },
