@@ -168,13 +168,15 @@ module.exports = {
     ],
 
     // List of Sponsors
-    sponsors: [
-      {
-        name: "Google",
-        logo: "themes/yellow-swan/img/google.png",
-        url: "http://google.com"
-      }
-    ],
+    sponsors: {
+      gold: [
+        {
+          name: "Google",
+          logo: "themes/yellow-swan/img/google.png",
+          url: "http://google.com"
+        }
+      ],
+    },
 
     // List of Partners
     partners: [
