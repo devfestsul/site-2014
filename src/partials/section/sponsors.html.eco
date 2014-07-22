@@ -1,23 +1,27 @@
-<h2 class="section-title"><%= @labels['sponsors'] %></h2>
+<div class="wrapper">
 
-<h3 class="sponsor-category-title">Partner</h3>
-<ul class="sponsors-list sponsors-adamantium">
-<% for sponsorAdamantium in @sponsors.adamantium: %>
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsorAdamantium.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-      <img src="<%= sponsorAdamantium.logo %>" alt="<%= sponsorAdamantium.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
-<% end %>
-</ul>
+  <h2 class="section-title"><%= @labels['sponsors'] %></h2>
 
-<h3 class="sponsor-category-title">Diamond</h3>
-<ul class="sponsors-list sponsors-diamond">
-<% for sponsorDiamond in @sponsors.diamond: %>
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsorDiamond.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-      <img src="<%= sponsorDiamond.logo %>" alt="<%= sponsorDiamond.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
-<% end %>
-</ul>
+  <h3 class="sponsor-category-title">Partner</h3>
+  <ul class="sponsors-list sponsors-adamantium">
+  <% for sponsorAdamantium in @sponsors.adamantium: %>
+    <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+      <a href="<%= sponsorAdamantium.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+        <img src="<%= sponsorAdamantium.logo %>" alt="<%= sponsorAdamantium.name %>" class="photo" itemprop="image">
+      </a>
+    </li>
+  <% end %>
+  </ul>
+
+  <h3 class="sponsor-category-title">Diamond</h3>
+  <ul class="sponsors-list sponsors-diamond">
+  <% for sponsorDiamond in @sponsors.diamond: %>
+    <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+      <a href="<%= sponsorDiamond.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+        <img src="<%= sponsorDiamond.logo %>" alt="<%= sponsorDiamond.name %>" class="photo" itemprop="image">
+      </a>
+    </li>
+  <% end %>
+  </ul>
+
+</div>
