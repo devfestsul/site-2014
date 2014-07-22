@@ -38,13 +38,13 @@
     <!-- CONTENT -->
     <div class="content" id="content">
     <%- @content %>
-      <div class="wrapper">
-        <!-- FOOTER -->
-        <footer class="footer">
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="wrapper">
           <p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)</p>
-        </footer>
-        <!-- / FOOTER -->
-      </div>
+        </div>
+      </footer>
+      <!-- / FOOTER -->
     </div>
     <!-- / CONTENT -->
 
