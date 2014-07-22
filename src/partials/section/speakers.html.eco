@@ -2,7 +2,9 @@
 
   <h2 class="section-title"><%= @labels['speakers'] %></h2>
 
-  <ul class="speakers-list">
+  <p>Em breve!</p>
+
+  <!-- <ul class="speakers-list">
   <% for speaker in @schedule: %>
     <% if speaker.presentation: %>
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -24,6 +26,6 @@
       </li>
     <% end %>
   <% end %>
-  </ul>
+  </ul> -->
 
 </div>
