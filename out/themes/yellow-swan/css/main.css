@@ -782,7 +782,6 @@ nav {
 .location {
   background: #FF002B;
   color: #fff;
-  padding-bottom: 150px;
 }
 .location .section-title {
   color: #fff;
@@ -801,6 +800,10 @@ nav {
 }
 .speakers .section-title {
   color: #fff;
+}
+.speakers a {
+  color: #fff;
+  text-decoration: underline;
 }
 .speaker-photo .photo {
   border-radius: 50%;
@@ -822,11 +825,17 @@ nav {
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
+.schedule {
+  background: #00A754;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.schedule .section-title {
+  color: #fff;
+}
 .schedule-tbl {
   background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  color: #777;
 }
 .schedule-tbl table {
   background: #fff;
