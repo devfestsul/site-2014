@@ -43,7 +43,7 @@ module.exports = {
     sections: [
       'about',
       'location',
-      // 'speakers',
+      'speakers',
       'schedule',
       'sponsors',
       // 'partners'
