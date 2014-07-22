@@ -64,8 +64,8 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Check-in / Credenciamento",
+        time: "08h00"
       },
       {
         name: "A definir",
@@ -77,7 +77,22 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "A definir",
+          title: "Palestra - A definir",
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          time: "09h00"
+        }
+      },
+      {
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
+        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        company: "",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Palestra - A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "10h00"
         }
@@ -92,13 +107,13 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "A definir",
+          title: "Palestra - A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "11h00"
         }
       },
       {
-        name: "Lunch",
+        name: "Almoço",
         time: "12h00"
       },
       {
@@ -111,9 +126,9 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "A definir",
+          title: "Palestra - A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          time: "13h30"
         }
       },
       {
@@ -128,24 +143,39 @@ module.exports = {
         presentation: {
           title: "A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          time: "14h30"
         }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
       },
       {
         name: "A definir",
         photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "A definir",
+          title: "Palestra - A definir",
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          time: "15h30"
+        }
+      },
+      {
+        name: "Coffee-break",
+        time: "15h30"
+      },
+      {
+        name: "A definir",
+        photo: "themes/yellow-swan/img/icognito.png",
+        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        company: "",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Palestra - A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "16h00"
         }
@@ -154,13 +184,13 @@ module.exports = {
         name: "A definir",
         photo: "themes/yellow-swan/img/icognito.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        company: "",
         link: {
           href: "A definir",
           text: ""
         },
         presentation: {
-          title: "A definir",
+          title: "Palestra - A definir",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "17h00"
         }
