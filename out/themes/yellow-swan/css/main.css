@@ -909,6 +909,7 @@ nav {
    ========================================================================== */
 .sponsors {
   background: #fff;
+  padding-bottom: 150px;
 }
 .sponsor-link,
 .partner-link {
@@ -921,6 +922,13 @@ nav {
 .partner-link:hover,
 .partner-link:focus {
   border-color: #f0a303;
+}
+.sponsors-category {
+  margin-top: 80px;
+}
+.sponsors-category-title {
+  text-transform: uppercase;
+  margin-bottom: 60px;
 }
 /* =============================================================================
    CONTACT
