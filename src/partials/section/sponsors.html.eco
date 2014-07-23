@@ -5,10 +5,10 @@
   <div class="sponsors-category sponsors-category-partner">
     <div class="wrapper">
       <h3 class="sponsor-category-title">Partner</h3>
-      <ul class="sponsors-list sponsors-adamantium">
+      <ul class="sponsors-adamantium">
       <% for sponsorAdamantium in @sponsors.adamantium: %>
         <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-          <a href="<%= sponsorAdamantium.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+          <a href="<%= sponsorAdamantium.url %>" class="sponsor-logo" itemprop="url">
             <img src="<%= sponsorAdamantium.logo %>" alt="<%= sponsorAdamantium.name %>" class="photo" itemprop="image">
           </a>
         </li>
