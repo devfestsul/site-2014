@@ -237,9 +237,9 @@ module.exports = {
       ],
       silver: [
         {
-          name: "GDG",
-          logo: "themes/yellow-swan/img/your-logo.jpg",
-          url: "mailto:contato@devfestsul.com.br"
+          name: "Bludata Software",
+          logo: "themes/yellow-swan/img/bludata.png",
+          url: "http://www.bludata.com.br/"
         },
         {
           name: "GDG",
