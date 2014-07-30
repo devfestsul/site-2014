@@ -23,7 +23,7 @@
       <ul class="sponsors-list sponsors-diamond">
       <% for sponsorDiamond in @sponsors.diamond: %>
         <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-          <a href="<%= sponsorDiamond.url %>" class="sponsor-logo dev-sponsor-link" itemprop="url">
+          <a href="<%= sponsorDiamond.url %>" class="sponsor-logo dev-sponsor-link dev-sponsor-diamond" itemprop="url">
             <img src="<%= sponsorDiamond.logo %>" alt="<%= sponsorDiamond.name %>" class="photo" itemprop="image">
           </a>
         </li>
@@ -38,7 +38,7 @@
       <ul class="sponsors-list sponsors-gold">
       <% for sponsorGold in @sponsors.gold: %>
         <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-          <a href="<%= sponsorGold.url %>" class="sponsor-logo dev-sponsor-link" itemprop="url">
+          <a href="<%= sponsorGold.url %>" class="sponsor-logo dev-sponsor-link dev-sponsor-gold" itemprop="url">
             <img src="<%= sponsorGold.logo %>" alt="<%= sponsorGold.name %>" class="photo" itemprop="image">
           </a>
         </li>
@@ -53,7 +53,7 @@
       <ul class="sponsors-list sponsors-silver">
       <% for sponsorSilver in @sponsors.silver: %>
         <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-          <a href="<%= sponsorSilver.url %>" class="sponsor-logo dev-sponsor-link" itemprop="url">
+          <a href="<%= sponsorSilver.url %>" class="sponsor-logo dev-sponsor-link dev-sponsor-silver" itemprop="url">
             <img src="<%= sponsorSilver.logo %>" alt="<%= sponsorSilver.name %>" class="photo" itemprop="image">
           </a>
         </li>
@@ -68,7 +68,7 @@
       <ul class="sponsors-list sponsors-support">
       <% for sponsorSupport in @sponsors.support: %>
         <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-          <a href="<%= sponsorSupport.url %>" class="sponsor-logo dev-sponsor-link" itemprop="url">
+          <a href="<%= sponsorSupport.url %>" class="sponsor-logo dev-sponsor-link dev-sponsor-support" itemprop="url">
             <img src="<%= sponsorSupport.logo %>" alt="<%= sponsorSupport.name %>" class="photo" itemprop="image">
           </a>
         </li>
