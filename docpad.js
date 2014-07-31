@@ -68,6 +68,36 @@ module.exports = {
         time: "08h00"
       },
       {
+        name: "Jackson F. Mafra",
+        photo: "themes/yellow-swan/img/speakers/jackson-mafra.jpg",
+        bio: "Instrutor de tecnologias mobile na Targettrust.",
+        company: "TargetTrust",
+        link: {
+          href: "http://twitter.com/jacksonfdam",
+          text: "@jacksonfdam"
+        },
+        presentation: {
+          title: "Android para Desenvolvedores iOS",
+          description: "Uma ambientação para quem está migrando do iOS ou pretende se aventurar no desenvolvimento em android. Aprenda sem sofrimento (ou pelo menos pouco) as diferenças das plataformas.",
+          time: "09h00 - Sala Cambará"
+        }
+      },
+      {
+        name: "Lucas Montano",
+        photo: "themes/yellow-swan/img/speakers/lucas-montano.jpg",
+        bio: "Desenvolvedor desde 2002, com experiência em PHP, JAVA, JS e Android. Depois de ter trabalhado como líder de equipe e desenvolvedor sênior, eu comecei a minha própria empresa em 2012, aprendendo muito sobre Lean Startup e análise de Lean. ",
+        company: "Moolab",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Gradle com Android Studio",
+          description: "Iniciando um projeto android com Android Studio e utilizando o Gradle para automatizar builds.",
+          time: "09h00 - Sala Cambará"
+        }
+      },
+      {
         name: "Felipe Lima",
         photo: "themes/yellow-swan/img/speakers/felipe-lima.jpeg",
         bio: "Felipe Lima é engenheiro de software há mais de 10 anos e atualmente trabalha com desenvolvimento Android na startup We Heart It. Já passou por empresas como HP e ThoughtWorks, atuando em variados tipos de projetos e tecnologias diferentes. Contribui ativamente em projetos Open Source, além de ter publicado no GitHub algumas bibliotecas bastante utilizadas pela comunidade.",
