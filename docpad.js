@@ -25,6 +25,11 @@ module.exports = {
         link: "http://www.eventick.com.br/devfestsul"
     },
 
+    call4Papers: {
+      text: "Quer palestrar?",
+      link: "https://docs.google.com/a/agtlucas.com/forms/d/1_CLjZYcd9LGUJlFgNxX7DZgCyIQZKZNuW0ZB-1KTCeU/viewform"
+    },
+
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     // forkButton: {
     //     repository: "https://github.com/devfestsul/site-2014"
