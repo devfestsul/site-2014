@@ -71,30 +71,30 @@ module.exports = {
         name: "Felipe Lima",
         photo: "themes/yellow-swan/img/speakers/felipe-lima.jpeg",
         bio: "Felipe Lima é engenheiro de software há mais de 10 anos e atualmente trabalha com desenvolvimento Android na startup We Heart It. Já passou por empresas como HP e ThoughtWorks, atuando em variados tipos de projetos e tecnologias diferentes. Contribui ativamente em projetos Open Source, além de ter publicado no GitHub algumas bibliotecas bastante utilizadas pela comunidade.",
-        company: "",
+        company: "We Heart It",
         link: {
-          href: "",
-          text: ""
+          href: "http://twitter.com/felipecsl",
+          text: "@felipecsl"
         },
         presentation: {
-          title: "Unit Testing Android apps",
+          title: "Unit Testing Android Apps",
           description: "Como aplicar TDD para apps Android e construir uma suite de testes robusta e confiável.",
-          time: "09h00"
+          time: "09h00 - Sala Cambará"
         }
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
-        company: "",
+        name: "Thayse dos Santos Severiano",
+        photo: "themes/yellow-swan/img/speakers/thayse-severiano.jpg",
+        bio: "Thayse dos Santos Severiano, analista de Testes na HB.SIS, em Blumenau. Está na área de TI a nove anos e atuando a quatro anos somente com testes, e nesse período, adquiriu a certificação CBTS. É organizadora do GDG Blumenau. No tempo livre, dedica-se a família, aos estudos de novas tecnologias, ferramentas e práticas de testes, atualização do seu blog, patinação e pintura em tela.",
+        company: "HB.SIS",
         link: {
-          href: "",
-          text: ""
+          href: "http://twitter.com/Thayse_ss",
+          text: "@Thayse_ss"
         },
         presentation: {
-          title: "Palestra - A definir",
-          description: "---",
-          time: "10h00"
+          title: "Automatizando testes em aplicações para Android com Robotium",
+          description: "Robotium é uma ferramenta que permite automação de testes para aplicações Android, que simula as ações de um usuário. Essa palestra visa apresentar o que é a ferramenta e mostrar o uso em uma aplicaçao simples, fazendo alguns testes básicos para demonstrar a simplicidade dela.",
+          time: "09h00 - Sala Painera"
         }
       },
       {
