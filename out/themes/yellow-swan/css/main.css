@@ -615,6 +615,10 @@ nav {
   .footer {
     height: 150px !important;
   }
+  .call4papers-action-link {
+    margin-top: 20px;
+    margin-left: 125px !important;
+  }
 }
 @media only screen and (max-width: 480px) {
   /* nav */
