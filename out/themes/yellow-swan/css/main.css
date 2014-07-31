@@ -332,7 +332,10 @@ nav {
   font-size: 2em;
 }
 .section-title {
+  background: #08c;
+  color: #fff;
   text-align: center;
+  padding: 10px 0;
   text-transform: uppercase;
 }
 /* =============================================================================
@@ -741,7 +744,7 @@ h6 {
    NAVIGATION
    ========================================================================== */
 nav {
-  background: #008AFA;
+  background: #000;
 }
 .nav-link {
   color: #f3f3f3;
@@ -820,33 +823,27 @@ nav {
 }
 .content a:hover,
 .content a:focus {
-  color: #fddd52;
+  color: orangered;
   text-decoration: underline;
 }
 /* =============================================================================
    ABOUT
    ========================================================================== */
 .about {
-  background: #008AFA;
-  color: #fff;
-}
-.about .section-title {
-  color: #fff;
+  background: #fff;
+  color: #2b2b2b;
 }
 .about a {
-  color: #fff;
+  color: #08c;
   text-decoration: underline;
 }
 /* =============================================================================
    LOCATION
    ========================================================================== */
 .location {
-  background: #FF002B;
-  color: #fff;
+  background: #fff;
+  color: #2b2b2b;
   text-align: center;
-}
-.location .section-title {
-  color: #fff;
 }
 .location-area {
   background: #e7e7e7;
@@ -856,15 +853,12 @@ nav {
    SPEAKER
    ========================================================================== */
 .speakers {
-  background: #FFAA00;
+  background: #fff;
   color: #2b2b2b;
   padding: 80px 0;
 }
-.speakers .section-title {
-  color: #fff;
-}
 .speakers a {
-  color: #fff;
+  color: #08c;
   text-decoration: underline;
 }
 .speaker-photo .photo {
@@ -888,16 +882,14 @@ nav {
    SCHEDULE
    ========================================================================== */
 .schedule {
-  background: #00A754;
-  color: #fff;
+  background: #fff;
+  color: #2b2b2b;
   padding-bottom: 50px;
-}
-.schedule .section-title {
-  color: #fff;
 }
 .schedule-tbl {
   background: #fff;
   color: #777;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
 }
 .schedule-tbl table {
   background: #fff;
