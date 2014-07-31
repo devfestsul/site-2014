@@ -68,17 +68,17 @@ module.exports = {
         time: "08h00"
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
+        name: "Felipe Lima",
+        photo: "themes/yellow-swan/img/speakers/felipe-lima.jpeg",
+        bio: "Felipe Lima é engenheiro de software há mais de 10 anos e atualmente trabalha com desenvolvimento Android na startup We Heart It. Já passou por empresas como HP e ThoughtWorks, atuando em variados tipos de projetos e tecnologias diferentes. Contribui ativamente em projetos Open Source, além de ter publicado no GitHub algumas bibliotecas bastante utilizadas pela comunidade.",
         company: "",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Palestra - A definir",
-          description: "---",
+          title: "Unit Testing Android apps",
+          description: "Como aplicar TDD para apps Android e construir uma suite de testes robusta e confiável.",
           time: "09h00"
         }
       },
