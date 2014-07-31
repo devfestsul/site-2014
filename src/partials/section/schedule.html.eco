@@ -1,6 +1,5 @@
 <div class="wrapper">
   <h2 class="section-title"><%= @labels['schedule'] %></h2>
-  <p>Em breve!</p>
   <div class="schedule-tbl">
     <table>
       <thead>
