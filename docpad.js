@@ -79,7 +79,7 @@ module.exports = {
         presentation: {
           title: "Unit Testing Android Apps",
           description: "Como aplicar TDD para apps Android e construir uma suite de testes robusta e confiável.",
-          time: "09h00 - Sala Cambará"
+          time: "10h00 - Sala Cambará"
         }
       },
       {
@@ -94,22 +94,37 @@ module.exports = {
         presentation: {
           title: "Automatizando testes em aplicações para Android com Robotium",
           description: "Robotium é uma ferramenta que permite automação de testes para aplicações Android, que simula as ações de um usuário. Essa palestra visa apresentar o que é a ferramenta e mostrar o uso em uma aplicaçao simples, fazendo alguns testes básicos para demonstrar a simplicidade dela.",
-          time: "09h00 - Sala Painera"
+          time: "10h00 - Sala Painera"
         }
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
-        company: "",
+        name: "Lucio Maciel",
+        photo: "themes/yellow-swan/img/speakers/lucio-maciel.jpg",
+        bio: "Desenvolvedor com mais de 13 anos de experiencia, tendo dedicado os últimos três exclusivamente ao desenvolvimento Android. Atualmente trabalha na We Heart It e mantém o site Muambator Android. Antes de entrar de cabeça no mundo da mobilidade foi desenvolvedor C/C++ para Linux e Unixes em geral por mais de dez anos.",
+        company: "We Heart It",
         link: {
-          href: "",
-          text: ""
+          href: "http://twitter.com/luciofm",
+          text: "@luciofm"
         },
         presentation: {
-          title: "Palestra - A definir",
-          description: "---",
-          time: "11h00"
+          title: "Se eu posso, você també pode - Animações para Desenvolvedores",
+          description: "Nessa palestra eu demostro quando e porque utilizar animações em aplicativos Android, como por exemplo para chamar a atenção do usuário, passar algum feedback, ou simplesmente ter uma transição de estados/telas mais suave, além de apresentar conceitos dos Frameworks de Animação e como utiliza-los para criar as animações apresentadas, na perspectiva do desenvolvedor.",
+          time: "11h00 - Sala Cambará"
+        }
+      },
+      {
+        name: "Eduardo Costa",
+        photo: "themes/yellow-swan/img/speakers/eduardo-costa.jpg",
+        bio: "Co-fundador da Craftbox, organizer do GDG POA e agnóstico a tecnologia ",
+        company: "Craftbox",
+        link: {
+          href: "http://twitter.com/eduardoscosta",
+          text: "@eduardoscosta"
+        },
+        presentation: {
+          title: "Integrando Android com Windows Azure",
+          description: "Crie um backend para sua app na nuvem sem se preocupar com a infraestrutura, e ainda por cima de graça.",
+          time: "11h00 - Sala Painera"
         }
       },
       {
@@ -117,18 +132,18 @@ module.exports = {
         time: "12h00"
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
+        name: "Leo Balter",
+        photo: "themes/yellow-swan/img/speakers/leo-balter.jpeg",
+        bio: "Leo Balter acredita que a Open Web torna o mundo um lugar melhor para todos. Colaborador de projetos open source, divide o tempo escrevendo códigos e testes - principalmente em JS, luta pela privacidade e direitos dos usuários na internet, e acredita que nada disso é possível sem a força da comunidades organicas de colaboração. Engenheiro de Software por profissão, também curte um bom Blues boa guitarra, video games, e long board. Em um momento da vida resolveu também ser advogado.",
         company: "",
         link: {
-          href: "",
-          text: ""
+          href: "http://twitter.com/leobalter",
+          text: "@leobalter"
         },
         presentation: {
-          title: "Palestra - A definir",
-          description: "---",
-          time: "13h30"
+          title: "Carreira de Sucesso no mundo Open Source",
+          description: "Sua vida profissional pode passar por uma revolução à medida em que você se imerge no mundo Open Source. Veja como pequenos atos geram grandes revoluções, além de ver como seguir esse longo caminho e fugir dos perigos ao longo dele. Vamos abordar também histórias de empreendedorismo de sucesso com as comunidades open source.",
+          time: "13h30 - Sala Cambará"
         }
       },
       {
@@ -141,7 +156,7 @@ module.exports = {
           text: ""
         },
         presentation: {
-          title: "A definir",
+          title: "Palestra - A definir",
           description: "---",
           time: "14h30"
         }
