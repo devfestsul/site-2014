@@ -182,6 +182,21 @@ module.exports = {
         }
       },
       {
+        name: "Vitor Leal",
+        photo: "themes/yellow-swan/img/speakers/vitor-leal.jpg",
+        bio: "Desenvolvedor com 9 anos de experiência trabalhando com desenvolvimento web e de software. Hoje focado em desenvolvimento de soluções de Internet of Things no Centro de Inovação da Telefônica VIVO.",
+        company: "Telefônica Brasil",
+        link: {
+          href: "http://twitter.com/vitorleal",
+          text: "@vitorleal"
+        },
+        presentation: {
+          title: "Internet of Things com Node.js",
+          description: "Como desenvolver soluções de Internet of Things utilizando Node.js. O Node.js não só possibilitou o desenvolvimento BackEnd utilizando JavaScript mas também o desenvolvimento de software e aplicações embarcadas utilizando hardwares já consolidados no mercado como Raspberry Pi, Arduino, BeagleBone Black entre outras.",
+          time: "14h30 - Sala Painera"
+        }
+      },
+      {
         name: "A definir",
         photo: "themes/yellow-swan/img/icognito.png",
         bio: "---",
