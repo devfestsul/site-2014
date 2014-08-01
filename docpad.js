@@ -90,7 +90,7 @@ module.exports = {
       {
         name: "Lucas Montano",
         photo: "themes/yellow-swan/img/speakers/lucas-montano.jpg",
-        bio: "Desenvolvedor desde 2002, com experiência em PHP, JAVA, JS e Android. Depois de ter trabalhado como líder de equipe e desenvolvedor sênior, eu comecei a minha própria empresa em 2012, aprendendo muito sobre Lean Startup e análise de Lean. ",
+        bio: "Empreendedor e desenvolvedor desde 2002, com experiência em PHP, JAVA, JS e Android. Criador do aplicativo Finanças Pessoais e fundador da empresa Moolab. Atuando como desenvolvedor Android na Superplayer.fm.",
         company: "Moolab",
         link: {
           href: "",
