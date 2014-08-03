@@ -197,18 +197,18 @@ module.exports = {
         }
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
-        company: "",
+        name: "Saulo Venancio",
+        photo: "themes/yellow-swan/img/speakers/saulo-venancio.jpg",
+        bio: "Saulo Venâncio atua com desenvolvimento de software desde 2009, iniciando com desenvolvimento de aplicações enterprise em Java e atualmente atuando fortemente no Front End com Javascript/AngularJS. Atua como desenvolvedor na Nonlinear Creations, empresa canadense focada em customização de Sistemas Gerenciadores de Conteúdo.",
+        company: "Nonlinear Creations",
         link: {
-          href: "",
-          text: ""
+          href: "http://twitter.com/saulovenancio",
+          text: "@saulovenancio"
         },
         presentation: {
-          title: "Palestra - A definir",
-          description: "---",
-          time: "14h30"
+          title: "Desenvolvimento Fácil com AngularJS",
+          description: "Nesta palestra, será apresentado um dos frameworks mais quentes da atualidade para construção de páginas Web, o AngularJS. Criado pelo Google, este framework provê inúmeras facilidades para a criação de aplicações web de simples a avançadas, facilitando o processo de desenvolvimento. Você vai conhecer os conceitos básicos e as boas práticas que o framework segue e te ajuda a seguir, produzindo código de qualidade, com muito menos esforço.",
+          time: "14h30 - Sala Cambará"
         }
       },
       {
