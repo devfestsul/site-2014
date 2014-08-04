@@ -221,7 +221,7 @@ module.exports = {
           text: "@gniemeyer"
         },
         presentation: {
-          title: "Desenvolvendo Interfaces Gráficas com GO e QML",
+          title: "GUIs confortáveis com Go e QML",
           description: "Vamos conversar sobre o suporte a linguagem QML para Go, que possibilita o desenvolvimento confortável de interfaces gráficas modernas de forma declarativa. A apresentação conta com uma introdução rápida a aspectos da linguagem Go e da QML através de exemplos interativos executados ao vivo.",
           time: "15h30 - Sala Painera"
         }
