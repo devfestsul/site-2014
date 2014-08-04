@@ -212,17 +212,17 @@ module.exports = {
         }
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
-        company: "",
+        name: "Gustavo Niemayer",
+        photo: "themes/yellow-swan/img/speakers/gustavo-niemayer.jpg",
+        bio: "Gustavo Niemeyer trabalha na Canonical, a empresa que criou o Ubuntu Linux, e foi o responsável pela criação de alguns dos principais projetos da empresa, como o Landscape e o projeto Juju de orquestração de serviços. Fora dos afazeres diários da Canonical, ele tem contribuído com a linguagem Go praticamente desde que ela se tornou pública, e é o autor de pacotes de desenvolvimento conhecidos como o driver MongoDB para Go, goyaml, gocheck, e vários outros. Recentemente também criou uma das principais integrações da linguagem com o ambientes gráficos através da linguagem QML.",
+        company: "Canonical",
         link: {
-          href: "",
-          text: ""
+          href: "http://twitter.com/gniemeyer",
+          text: "@gniemeyer"
         },
         presentation: {
-          title: "Palestra - A definir",
-          description: "---",
+          title: "Desenvolvendo Interfaces Gráficas com GO e QML",
+          description: "Vamos conversar sobre o suporte a linguagem QML para Go, que possibilita o desenvolvimento confortável de interfaces gráficas modernas de forma declarativa. A apresentação conta com uma introdução rápida a aspectos da linguagem Go e da QML através de exemplos interativos executados ao vivo.",
           time: "15h30"
         }
       },
