@@ -11,7 +11,7 @@ module.exports = {
       description: "DevFest é um evento mundial, realizado pela comunidade de desenvolvedores Google. Focado nas necessidades de cada comunidade local, ele tem por objetivo proporcionar a troca de conhecimento, networking e o fortalecimento dessas comunidades.",
       date: "23 de agosto",
       // If your event is free, just comment this line
-      price: "R$ 50,00",
+      price: "R$ 25,00",
       venue: "Centro de Eventos Plaza São Rafael",
       address: "Avenida Alberto Bins, Centro Histórico",
       city: "Porto Alegre",
