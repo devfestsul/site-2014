@@ -294,9 +294,9 @@ module.exports = {
       ],
       support: [
         {
-          name: "GDG",
-          logo: "themes/yellow-swan/img/your-logo.jpg",
-          url: "mailto:contato@devfestsul.com.br"
+          name: "Wildtech",
+          logo: "themes/yellow-swan/img/wildtech.png",
+          url: "http://www.wildtech.com.br/"
         }
       ],
     },
