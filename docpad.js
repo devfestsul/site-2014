@@ -220,8 +220,8 @@ module.exports = {
         time: "15h50"
       },
       {
-        name: "Gustavo Niemayer",
-        photo: "themes/yellow-swan/img/speakers/gustavo-niemayer.jpg",
+        name: "Gustavo Niemeyer",
+        photo: "themes/yellow-swan/img/speakers/gustavo-niemeyer.jpg",
         bio: "Gustavo Niemeyer trabalha na Canonical, a empresa que criou o Ubuntu Linux, e foi o responsável pela criação de alguns dos principais projetos da empresa, como o Landscape e o projeto Juju de orquestração de serviços. Fora dos afazeres diários da Canonical, ele tem contribuído com a linguagem Go praticamente desde que ela se tornou pública, e é o autor de pacotes de desenvolvimento conhecidos como o driver MongoDB para Go, goyaml, gocheck, e vários outros. Recentemente também criou uma das principais integrações da linguagem com o ambientes gráficos através da linguagem QML.",
         company: "Canonical",
         link: {
