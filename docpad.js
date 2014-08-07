@@ -69,53 +69,12 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Credenciamento + Coffee-break",
+        name: "Credenciamento + Coffee Break",
         time: "08h00"
       },
       {
-        name: "Jackson F. Mafra",
-        photo: "themes/yellow-swan/img/speakers/jackson-mafra.jpg",
-        bio: "Instrutor de tecnologias mobile na Targettrust.",
-        company: "TargetTrust",
-        link: {
-          href: "http://twitter.com/jacksonfdam",
-          text: "@jacksonfdam"
-        },
-        presentation: {
-          title: "Android para Desenvolvedores iOS",
-          description: "Uma ambientação para quem está migrando do iOS ou pretende se aventurar no desenvolvimento em android. Aprenda sem sofrimento (ou pelo menos pouco) as diferenças das plataformas.",
-          time: "09h00 - Sala Cambará"
-        }
-      },
-      {
-        name: "Lucas Montano",
-        photo: "themes/yellow-swan/img/speakers/lucas-montano.jpg",
-        bio: "Empreendedor e desenvolvedor desde 2002, com experiência em PHP, JAVA, JS e Android. Criador do aplicativo Finanças Pessoais e fundador da empresa Moolab. Atuando como desenvolvedor Android na Superplayer.fm.",
-        company: "Moolab",
-        link: {
-          href: "",
-          text: ""
-        },
-        presentation: {
-          title: "Gradle com Android Studio",
-          description: "Iniciando um projeto android com Android Studio e utilizando o Gradle para automatizar builds.",
-          time: "09h00 - Sala Cambará"
-        }
-      },
-      {
-        name: "Felipe Lima",
-        photo: "themes/yellow-swan/img/speakers/felipe-lima.jpeg",
-        bio: "Felipe Lima é engenheiro de software há mais de 10 anos e atualmente trabalha com desenvolvimento Android na startup We Heart It. Já passou por empresas como HP e ThoughtWorks, atuando em variados tipos de projetos e tecnologias diferentes. Contribui ativamente em projetos Open Source, além de ter publicado no GitHub algumas bibliotecas bastante utilizadas pela comunidade.",
-        company: "We Heart It",
-        link: {
-          href: "http://twitter.com/felipecsl",
-          text: "@felipecsl"
-        },
-        presentation: {
-          title: "Unit Testing Android Apps",
-          description: "Como aplicar TDD para apps Android e construir uma suite de testes robusta e confiável.",
-          time: "10h00 - Sala Cambará"
-        }
+        name: "Abertura",
+        time: "09:00"
       },
       {
         name: "Thayse dos Santos Severiano",
@@ -144,7 +103,22 @@ module.exports = {
         presentation: {
           title: "Se eu posso, você també pode - Animações para Desenvolvedores",
           description: "Nessa palestra eu demostro quando e porque utilizar animações em aplicativos Android, como por exemplo para chamar a atenção do usuário, passar algum feedback, ou simplesmente ter uma transição de estados/telas mais suave, além de apresentar conceitos dos Frameworks de Animação e como utiliza-los para criar as animações apresentadas, na perspectiva do desenvolvedor.",
-          time: "11h00 - Sala Cambará"
+          time: "10h00 - Sala Cambará"
+        }
+      },
+      {
+        name: "Felipe Lima",
+        photo: "themes/yellow-swan/img/speakers/felipe-lima.jpeg",
+        bio: "Felipe Lima é engenheiro de software há mais de 10 anos e atualmente trabalha com desenvolvimento Android na startup We Heart It. Já passou por empresas como HP e ThoughtWorks, atuando em variados tipos de projetos e tecnologias diferentes. Contribui ativamente em projetos Open Source, além de ter publicado no GitHub algumas bibliotecas bastante utilizadas pela comunidade.",
+        company: "We Heart It",
+        link: {
+          href: "http://twitter.com/felipecsl",
+          text: "@felipecsl"
+        },
+        presentation: {
+          title: "Unit Testing Android Apps",
+          description: "Como aplicar TDD para apps Android e construir uma suite de testes robusta e confiável.",
+          time: "11h10 - Sala Painera"
         }
       },
       {
@@ -159,12 +133,12 @@ module.exports = {
         presentation: {
           title: "Integrando Android com Windows Azure",
           description: "Crie um backend para sua app na nuvem sem se preocupar com a infraestrutura, e ainda por cima de graça.",
-          time: "11h00 - Sala Painera"
+          time: "11h10 - Sala Cambará"
         }
       },
       {
         name: "Almoço",
-        time: "12h00"
+        time: "12h20"
       },
       {
         name: "Leo Balter",
@@ -178,6 +152,36 @@ module.exports = {
         presentation: {
           title: "Carreira de Sucesso no mundo Open Source",
           description: "Sua vida profissional pode passar por uma revolução à medida em que você se imerge no mundo Open Source. Veja como pequenos atos geram grandes revoluções, além de ver como seguir esse longo caminho e fugir dos perigos ao longo dele. Vamos abordar também histórias de empreendedorismo de sucesso com as comunidades open source.",
+          time: "13h30 - Sala Painera"
+        }
+      },
+      {
+        name: "Jackson F. Mafra",
+        photo: "themes/yellow-swan/img/speakers/jackson-mafra.jpg",
+        bio: "Instrutor de tecnologias mobile na Targettrust.",
+        company: "TargetTrust",
+        link: {
+          href: "http://twitter.com/jacksonfdam",
+          text: "@jacksonfdam"
+        },
+        presentation: {
+          title: "Android para Desenvolvedores iOS",
+          description: "Uma ambientação para quem está migrando do iOS ou pretende se aventurar no desenvolvimento em android. Aprenda sem sofrimento (ou pelo menos pouco) as diferenças das plataformas.",
+          time: "13h30 - Sala Cambará"
+        }
+      },
+      {
+        name: "Lucas Montano",
+        photo: "themes/yellow-swan/img/speakers/lucas-montano.jpg",
+        bio: "Empreendedor e desenvolvedor desde 2002, com experiência em PHP, JAVA, JS e Android. Criador do aplicativo Finanças Pessoais e fundador da empresa Moolab. Atuando como desenvolvedor Android na Superplayer.fm.",
+        company: "Moolab",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Gradle com Android Studio",
+          description: "Iniciando um projeto android com Android Studio e utilizando o Gradle para automatizar builds.",
           time: "13h30 - Sala Cambará"
         }
       },
@@ -193,7 +197,7 @@ module.exports = {
         presentation: {
           title: "Internet of Things com Node.js",
           description: "Como desenvolver soluções de Internet of Things utilizando Node.js. O Node.js não só possibilitou o desenvolvimento BackEnd utilizando JavaScript mas também o desenvolvimento de software e aplicações embarcadas utilizando hardwares já consolidados no mercado como Raspberry Pi, Arduino, BeagleBone Black entre outras.",
-          time: "14h30 - Sala Painera"
+          time: "14h40 - Sala Painera"
         }
       },
       {
@@ -208,8 +212,12 @@ module.exports = {
         presentation: {
           title: "Desenvolvimento Fácil com AngularJS",
           description: "Nesta palestra, será apresentado um dos frameworks mais quentes da atualidade para construção de páginas Web, o AngularJS. Criado pelo Google, este framework provê inúmeras facilidades para a criação de aplicações web de simples a avançadas, facilitando o processo de desenvolvimento. Você vai conhecer os conceitos básicos e as boas práticas que o framework segue e te ajuda a seguir, produzindo código de qualidade, com muito menos esforço.",
-          time: "14h30 - Sala Cambará"
+          time: "14h40 - Sala Cambará"
         }
+      },
+      {
+        name: "Coffee Break",
+        time: "15h50"
       },
       {
         name: "Gustavo Niemayer",
@@ -223,12 +231,8 @@ module.exports = {
         presentation: {
           title: "GUIs confortáveis com Go e QML",
           description: "Vamos conversar sobre o suporte a linguagem QML para Go, que possibilita o desenvolvimento confortável de interfaces gráficas modernas de forma declarativa. A apresentação conta com uma introdução rápida a aspectos da linguagem Go e da QML através de exemplos interativos executados ao vivo.",
-          time: "15h30 - Sala Painera"
+          time: "16h20 - Sala Painera"
         }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h30"
       },
       {
         name: "A definir",
@@ -242,23 +246,12 @@ module.exports = {
         presentation: {
           title: "Palestra - A definir",
           description: "---",
-          time: "16h00"
+          time: "16h20"
         }
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
-        company: "",
-        link: {
-          href: "A definir",
-          text: ""
-        },
-        presentation: {
-          title: "Palestra - A definir",
-          description: "---",
-          time: "17h00"
-        }
+        name: "Encerramento",
+        time: "17h30"
       }
     ],
 
