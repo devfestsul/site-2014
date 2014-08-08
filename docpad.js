@@ -73,8 +73,19 @@ module.exports = {
         time: "08h00"
       },
       {
-        name: "Abertura",
-        time: "09:00"
+        name: "Rob Dodson",
+        photo: "themes/yellow-swan/img/speakers/rob-dodson.jpg",
+        bio: "Rob Dodson is a developer advocate at Google where he focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for the mobile web and to help developers build great experiences.",
+        company: "Google",
+        link: {
+          href: "http://twitter.com/rob_dodson",
+          text: "@rob_dodson"
+        },
+        presentation: {
+          title: "The Webcomponets Ecosystem",
+          description: "Web Components give us the power to invent our own HTML elements, designed to be future-facing, interoperable, and beautiful on the multi-device web. With tools like Polymer and X-Tag, we can start taking advantage of this new technology today. Let’s take a look at some of the amazing elements that are already being produced, and explore how you can start leveraging them in your own projects.",
+          time: "09h00 - Sala Painera"
+        }
       },
       {
         name: "Thayse dos Santos Severiano",
@@ -92,6 +103,21 @@ module.exports = {
         }
       },
       {
+        name: "Leo Balter",
+        photo: "themes/yellow-swan/img/speakers/leo-balter.jpeg",
+        bio: "Leo Balter acredita que a Open Web torna o mundo um lugar melhor para todos. Colaborador de projetos open source, divide o tempo escrevendo códigos e testes - principalmente em JS, luta pela privacidade e direitos dos usuários na internet, e acredita que nada disso é possível sem a força da comunidades organicas de colaboração. Engenheiro de Software por profissão, também curte um bom Blues boa guitarra, video games, e long board. Em um momento da vida resolveu também ser advogado.",
+        company: "",
+        link: {
+          href: "http://twitter.com/leobalter",
+          text: "@leobalter"
+        },
+        presentation: {
+          title: "Carreira de Sucesso no mundo Open Source",
+          description: "Sua vida profissional pode passar por uma revolução à medida em que você se imerge no mundo Open Source. Veja como pequenos atos geram grandes revoluções, além de ver como seguir esse longo caminho e fugir dos perigos ao longo dele. Vamos abordar também histórias de empreendedorismo de sucesso com as comunidades open source.",
+          time: "10h00 - Sala Cambará"
+        }
+      },
+      {
         name: "Lucio Maciel",
         photo: "themes/yellow-swan/img/speakers/lucio-maciel.jpg",
         bio: "Desenvolvedor com mais de 13 anos de experiencia, tendo dedicado os últimos três exclusivamente ao desenvolvimento Android. Atualmente trabalha na We Heart It e mantém o site Muambator Android. Antes de entrar de cabeça no mundo da mobilidade foi desenvolvedor C/C++ para Linux e Unixes em geral por mais de dez anos.",
@@ -103,9 +129,30 @@ module.exports = {
         presentation: {
           title: "Se eu posso, você també pode - Animações para Desenvolvedores",
           description: "Nessa palestra eu demostro quando e porque utilizar animações em aplicativos Android, como por exemplo para chamar a atenção do usuário, passar algum feedback, ou simplesmente ter uma transição de estados/telas mais suave, além de apresentar conceitos dos Frameworks de Animação e como utiliza-los para criar as animações apresentadas, na perspectiva do desenvolvedor.",
-          time: "10h00 - Sala Cambará"
+          time: "11h10 - Sala Painera"
         }
       },
+      {
+        name: "Saulo Venancio",
+        photo: "themes/yellow-swan/img/speakers/saulo-venancio.jpg",
+        bio: "Saulo Venâncio atua com desenvolvimento de software desde 2009, iniciando com desenvolvimento de aplicações enterprise em Java e atualmente atuando fortemente no Front End com Javascript/AngularJS. Atua como desenvolvedor na Nonlinear Creations, empresa canadense focada em customização de Sistemas Gerenciadores de Conteúdo.",
+        company: "Nonlinear Creations",
+        link: {
+          href: "http://twitter.com/saulovenancio",
+          text: "@saulovenancio"
+        },
+        presentation: {
+          title: "Desenvolvimento Fácil com AngularJS",
+          description: "Nesta palestra, será apresentado um dos frameworks mais quentes da atualidade para construção de páginas Web, o AngularJS. Criado pelo Google, este framework provê inúmeras facilidades para a criação de aplicações web de simples a avançadas, facilitando o processo de desenvolvimento. Você vai conhecer os conceitos básicos e as boas práticas que o framework segue e te ajuda a seguir, produzindo código de qualidade, com muito menos esforço.",
+          time: "11h10 - Sala Cambará"
+        }
+      },
+
+      {
+        name: "Almoço",
+        time: "12h20"
+      },
+
       {
         name: "Felipe Lima",
         photo: "themes/yellow-swan/img/speakers/felipe-lima.jpeg",
@@ -118,70 +165,21 @@ module.exports = {
         presentation: {
           title: "Unit Testing Android Apps",
           description: "Como aplicar TDD para apps Android e construir uma suite de testes robusta e confiável.",
-          time: "11h10 - Sala Painera"
-        }
-      },
-      {
-        name: "Eduardo Costa",
-        photo: "themes/yellow-swan/img/speakers/eduardo-costa.jpg",
-        bio: "Co-fundador da Craftbox, organizer do GDG POA e agnóstico a tecnologia ",
-        company: "Craftbox",
-        link: {
-          href: "http://twitter.com/eduardoscosta",
-          text: "@eduardoscosta"
-        },
-        presentation: {
-          title: "Integrando Android com Windows Azure",
-          description: "Crie um backend para sua app na nuvem sem se preocupar com a infraestrutura, e ainda por cima de graça.",
-          time: "11h10 - Sala Cambará"
-        }
-      },
-      {
-        name: "Almoço",
-        time: "12h20"
-      },
-      {
-        name: "Leo Balter",
-        photo: "themes/yellow-swan/img/speakers/leo-balter.jpeg",
-        bio: "Leo Balter acredita que a Open Web torna o mundo um lugar melhor para todos. Colaborador de projetos open source, divide o tempo escrevendo códigos e testes - principalmente em JS, luta pela privacidade e direitos dos usuários na internet, e acredita que nada disso é possível sem a força da comunidades organicas de colaboração. Engenheiro de Software por profissão, também curte um bom Blues boa guitarra, video games, e long board. Em um momento da vida resolveu também ser advogado.",
-        company: "",
-        link: {
-          href: "http://twitter.com/leobalter",
-          text: "@leobalter"
-        },
-        presentation: {
-          title: "Carreira de Sucesso no mundo Open Source",
-          description: "Sua vida profissional pode passar por uma revolução à medida em que você se imerge no mundo Open Source. Veja como pequenos atos geram grandes revoluções, além de ver como seguir esse longo caminho e fugir dos perigos ao longo dele. Vamos abordar também histórias de empreendedorismo de sucesso com as comunidades open source.",
           time: "13h30 - Sala Painera"
         }
       },
       {
-        name: "Jackson F. Mafra",
-        photo: "themes/yellow-swan/img/speakers/jackson-mafra.jpg",
-        bio: "Instrutor de tecnologias mobile na Targettrust.",
-        company: "TargetTrust",
+        name: "Ale Borba",
+        photo: "themes/yellow-swan/img/speakers/ale-borba.jpg",
+        bio: "Community Manager @ Google",
+        company: "Google",
         link: {
-          href: "http://twitter.com/jacksonfdam",
-          text: "@jacksonfdam"
+          href: "http://twitter.com/ale_borba",
+          text: "@ale_borba"
         },
         presentation: {
-          title: "Android para Desenvolvedores iOS",
-          description: "Uma ambientação para quem está migrando do iOS ou pretende se aventurar no desenvolvimento em android. Aprenda sem sofrimento (ou pelo menos pouco) as diferenças das plataformas.",
-          time: "13h30 - Sala Cambará"
-        }
-      },
-      {
-        name: "Lucas Montano",
-        photo: "themes/yellow-swan/img/speakers/lucas-montano.jpg",
-        bio: "Empreendedor e desenvolvedor desde 2002, com experiência em PHP, JAVA, JS e Android. Criador do aplicativo Finanças Pessoais e fundador da empresa Moolab. Atuando como desenvolvedor Android na Superplayer.fm.",
-        company: "Moolab",
-        link: {
-          href: "",
-          text: ""
-        },
-        presentation: {
-          title: "Gradle com Android Studio",
-          description: "Iniciando um projeto android com Android Studio e utilizando o Gradle para automatizar builds.",
+          title: "Google Cloud Platform",
+          description: "O Google Cloud Platform permite aos desenvolvedores criar, testar e implementar aplicativos na infraestrutura altamente escalável e confiável do Google. Escolha entre serviços de computação, armazenamento e aplicativos para suas soluções da Web, móveis e de back-end.",
           time: "13h30 - Sala Cambará"
         }
       },
@@ -201,17 +199,17 @@ module.exports = {
         }
       },
       {
-        name: "Saulo Venancio",
-        photo: "themes/yellow-swan/img/speakers/saulo-venancio.jpg",
-        bio: "Saulo Venâncio atua com desenvolvimento de software desde 2009, iniciando com desenvolvimento de aplicações enterprise em Java e atualmente atuando fortemente no Front End com Javascript/AngularJS. Atua como desenvolvedor na Nonlinear Creations, empresa canadense focada em customização de Sistemas Gerenciadores de Conteúdo.",
-        company: "Nonlinear Creations",
+        name: "Eduardo Costa",
+        photo: "themes/yellow-swan/img/speakers/eduardo-costa.jpg",
+        bio: "Co-fundador da Craftbox, organizer do GDG POA e agnóstico a tecnologia ",
+        company: "Craftbox",
         link: {
-          href: "http://twitter.com/saulovenancio",
-          text: "@saulovenancio"
+          href: "http://twitter.com/eduardoscosta",
+          text: "@eduardoscosta"
         },
         presentation: {
-          title: "Desenvolvimento Fácil com AngularJS",
-          description: "Nesta palestra, será apresentado um dos frameworks mais quentes da atualidade para construção de páginas Web, o AngularJS. Criado pelo Google, este framework provê inúmeras facilidades para a criação de aplicações web de simples a avançadas, facilitando o processo de desenvolvimento. Você vai conhecer os conceitos básicos e as boas práticas que o framework segue e te ajuda a seguir, produzindo código de qualidade, com muito menos esforço.",
+          title: "Integrando Android com Windows Azure",
+          description: "Crie um backend para sua app na nuvem sem se preocupar com a infraestrutura, e ainda por cima de graça.",
           time: "14h40 - Sala Cambará"
         }
       },
@@ -235,18 +233,48 @@ module.exports = {
         }
       },
       {
-        name: "A definir",
-        photo: "themes/yellow-swan/img/icognito.png",
-        bio: "---",
-        company: "",
+        name: "Rafael Helm",
+        photo: "themes/yellow-swan/img/speakers/rafael-helm.jpg",
+        bio: "Membro do time de desenvolvimento de soluções móveis da uMov.me. Desenvolvedor multidisciplinado, trabalhando em todas as fases do desenvolvimento de software, desde a análise de negócios até o deploy (entrega) do software para o cliente. Autor do livro User Stories - Por que e como escrever requisitos de forma ágil? Consultor e Instrutor da Wildtech ministrando treinamentos e workshops sobre Lean, eXtreme Programming e Scrum. Marido, pai, empreendedor e maratonista.",
+        company: "uMov.me",
+        link: {
+          href: "http://twitter.com/rafaelhelm",
+          text: "@rafaelhelm"
+        },
+        presentation: {
+          title: "Histórias de Usuário - Por que e como escrever requisitos de forma ágil?",
+          description: "Uma ambientação para quem está migrando do iOS ou pretende se aventurar no desenvolvimento em android. Aprenda sem sofrimento (ou pelo menos pouco) as diferenças das plataformas.",
+          time: "16h20 - Sala Cambará"
+        }
+      },
+      {
+        name: "Jackson F. Mafra",
+        photo: "themes/yellow-swan/img/speakers/jackson-mafra.jpg",
+        bio: "Instrutor de tecnologias mobile na Targettrust.",
+        company: "TargetTrust",
+        link: {
+          href: "http://twitter.com/jacksonfdam",
+          text: "@jacksonfdam"
+        },
+        presentation: {
+          title: "Android para Desenvolvedores iOS",
+          description: "Uma ambientação para quem está migrando do iOS ou pretende se aventurar no desenvolvimento em android. Aprenda sem sofrimento (ou pelo menos pouco) as diferenças das plataformas.",
+          time: "16h20 - Sala Cambará"
+        }
+      },
+      {
+        name: "Lucas Montano",
+        photo: "themes/yellow-swan/img/speakers/lucas-montano.jpg",
+        bio: "Empreendedor e desenvolvedor desde 2002, com experiência em PHP, JAVA, JS e Android. Criador do aplicativo Finanças Pessoais e fundador da empresa Moolab. Atuando como desenvolvedor Android na Superplayer.fm.",
+        company: "Moolab",
         link: {
           href: "",
           text: ""
         },
         presentation: {
-          title: "Palestra - A definir",
-          description: "---",
-          time: "16h20"
+          title: "Gradle com Android Studio",
+          description: "Iniciando um projeto android com Android Studio e utilizando o Gradle para automatizar builds.",
+          time: "16h20 - Sala Cambará"
         }
       },
       {
