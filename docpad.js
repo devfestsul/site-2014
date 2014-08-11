@@ -238,7 +238,7 @@ module.exports = {
         },
         presentation: {
           title: "Histórias de Usuário - Por que e como escrever requisitos de forma ágil?",
-          description: "Uma ambientação para quem está migrando do iOS ou pretende se aventurar no desenvolvimento em android. Aprenda sem sofrimento (ou pelo menos pouco) as diferenças das plataformas.",
+          description: "Rafael vai apresentar as motivações para escrever requisitos no formato de Histórias de Usuário, bem como um template para que você possa escrever suas primeiras histórias sem muita dor de cabeça. :-)",
           time: "16h20 - Sala Cambará"
         }
       },
