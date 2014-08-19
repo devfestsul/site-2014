@@ -1,0 +1,220 @@
+@import "_mixins.less";
+
+/* =============================================================================
+   MAIN LAYOUT
+   ========================================================================== */
+html {
+  background:#F6F6F6;
+  font:normal normal 10px/1.2em 'Roboto', helvetica, arial, sans-serif;
+  color:#777;
+}
+
+/* =============================================================================
+   BASIC STYLES
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
+
+/* =============================================================================
+   NAVIGATION
+   ========================================================================== */
+nav {
+  background: #000;
+}
+.nav-link {color:#f3f3f3;}
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {color:#fff;}
+
+/* =============================================================================
+   HEADER
+   ========================================================================== */
+.header {
+  background-image: url('../img/cover.jpg');
+  background-color: #2b2b2b;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.logo-link, .tagline, .call-action-area .price {
+  color:#fff;
+  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+}
+.tagline {font-weight: normal;}
+.call-action-area .price {color:#fddd52;}
+.call-action-area .call-action-link, .btn {
+  background-color: #fddd52;
+  color:#2b2b2b;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.call4papers-action-link {
+  background: #00A754 !important;
+  margin-left: 20px;
+}
+
+.github-link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
+}
+
+.github-link img {
+  border: 0;
+}
+
+/* =============================================================================
+   FOOTER
+   ========================================================================== */
+.footer {
+  background-image: url('../img/cover.jpg');
+  background-color: #2b2b2b;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100% auto;
+  color: #fff;
+  height: 100px;
+  p {
+    position: relative;
+    top: 40px;
+  }
+}
+/* =============================================================================
+   CONTENT
+   ========================================================================== */
+.content a {color:#f0a303;}
+.content a:hover, .content a:focus {
+  color: orangered;
+  text-decoration: underline;
+}
+
+/* =============================================================================
+   ABOUT
+   ========================================================================== */
+.about {
+  background:#fff;
+  color: #2b2b2b;
+  a {
+    color: #08c;
+    text-decoration: underline;
+  }
+}
+
+/* =============================================================================
+   LOCATION
+   ========================================================================== */
+.location {
+  background: #fff;
+  color: #2b2b2b;
+  text-align: center;
+}
+
+.location-area {
+  background: #e7e7e7;
+  height: 600px;
+}
+
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.speakers {
+  background: #fff;
+  color: #2b2b2b;
+  padding: 80px 0;
+  a {
+    color: #08c;
+    text-decoration: underline;
+  }
+}
+.speaker-photo .photo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0,0,0,.07);
+  .transition(all 0.3s ease-out);
+}
+.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
+.speech-time {
+  color:#fff;
+  background:#2b2b2b;
+  border-radius: 8px;
+}
+
+/* =============================================================================
+   SCHEDULE
+   ========================================================================== */
+.schedule {
+  background: #fff;
+  color: #2b2b2b;
+  padding-bottom: 50px;
+}
+.schedule-tbl {
+  background:#fff;
+  color: #777;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.schedule-tbl table {background:#fff;}
+.schedule-tbl td, .schedule-tbl th {border-bottom:1px solid #e7e7e7;}
+.schedule-tbl tbody tr:nth-child(2n+1) {background:#f6f6f6;}
+.schedule-tbl th {color:#2b2b2b;}
+.schedule-tbl .speaker-photo .photo {box-shadow: 0 0 0 1px rgba(0,0,0,.3);}
+.speakers-company {color:#999;}
+.schedule-slot {color:#2b2b2b;}
+.schedule-tbl tbody tr:hover {background:#fffde1;}
+.schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other {color:#214f87;}
+
+/* =============================================================================
+   SPONSORS
+   ========================================================================== */
+.sponsors {
+  background: #fff;
+  padding-bottom: 150px;
+}
+.dev-sponsor-link, .partner-link {
+  background: #fff;
+}
+.dev-sponsor-link:hover, .dev-sponsor-link:focus, .partner-link:hover, .partner-link:focus {border-color: #f0a303;}
+
+.sponsors-category {
+  margin-top: 80px;
+}
+
+.sponsors-category-title {
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+/* =============================================================================
+   CONTACT
+   ========================================================================== */
+.form input[type=text], .form input[type=email], .form textarea{
+  color: #777;
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  border-radius: 4px;
+}
+.form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus {border-color:#aaa;outline:0;}
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width : 1024px) {
+  .header {
+    background-size: auto 100%;
+  }
+}
+@media only screen and (max-width : 480px) {
+  /* speakers */
+  .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
+  .speech-title {font-weight: bolder;}
+  .speech-time {
+    color:#2b2b2b;
+    background: transparent;
+    font-weight: bolder;
+  }
+  .github-link { display: none; }
+}
